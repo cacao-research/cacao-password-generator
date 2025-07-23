@@ -35,8 +35,9 @@ from .rating import rating, detailed_rating, rate_password_strength
 from .config import load_config, get_default_config
 
 # Package metadata
-__version__ = "1.0.0"
-__author__ = "Cacao Password Generator Contributors"
+__version__ = "1.0.1"
+__author__ = "Juan Denis"
+__email__ = "juan@vene.co"
 __license__ = "MIT"
 __description__ = "A secure password generator with configurable constraints and strength rating"
 

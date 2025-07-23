@@ -4,14 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cacao-password-generator"
-version = "1.0.0"
+version = "1.0.2"
 description = "A secure password generator with configurable constraints and strength rating"
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
-authors = [
-    {name = "Cacao Password Generator Contributors"}
-]
+authors = [ { name="Juan Denis", email="juan@vene.co" } ]
 keywords = ["password", "generator", "security", "cryptography"]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -44,9 +42,9 @@ dev = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/cacaodev/cacao-password-generator"
-"Bug Reports" = "https://github.com/cacaodev/cacao-password-generator/issues"
-"Source" = "https://github.com/cacaodev/cacao-password-generator"
+"Homepage" = "https://github.com/cacao-research/cacao-password-generator"
+"Bug Reports" = "https://github.com/cacao-research/cacao-password-generator/issues"
+"Source" = "https://github.com/cacao-research/cacao-password-generator"
 
 [tool.setuptools]
 # package-dir removed; now using default root package directory
